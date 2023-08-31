@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--  Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <!-- Custom CSS -->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Raleway:wght@200&family=Sacramento&display=swap"
+          rel="stylesheet">
+
+    <title>Shivaay </title>
+    <link rel="icon" type="image/x-icon" href="images/logo-emoji.png">
+
+</head>
+<body>
+
+
+<!-- Navigation Bar -->
+
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Shivaay</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Products
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="chair.html">Chairs</a></li>
+                        <li><a class="dropdown-item" href="desk.html">Desks</a></li>
+                        <li><a class="dropdown-item" href="almirah.html">Almirah</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="others.html">More</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<!-- Title Section -->
+
+<section id="title-section">
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="logo-div col">
+                    <img class="logo" src="images/logo.png" alt="">
+                </div>
+                <div class="title-class col">
+                    <h1 class="big-heading">Shivaay Furnitech</h1>
+                    <hr class="separator">
+                    <p class="lead">luxurious & comfy</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Intro Section -->
+
+<section class="intro-section">
+    <div class="container">
+        <img class="intro-images" src="images/home-section-images.jpg">
+    </div>
+</section>
+
+
+<!-- Summary Section -->
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <div>
+                <img class="carousel-image d-block w-100" src="images/chair.jpg" alt="...">
+            </div>
+            <div class="carousel-caption">
+                <h5>Chairs</h5>
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div>
+                <img class="carousel-image d-block w-100" src="images/desk.png" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Desk</h5>
+                
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div>
+                <img class="carousel-image d-block w-100" src="images/racks.jpg" alt="...">
+            </div>
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Racks</h5>
+                
+            </div>
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+
+<!-- Gallery Section -->
+
+<section class="colored-section" id="gallery-section">
+    <h2 class="homepage-second-heading">We make your office beautiful</h2>
+    <div class="row gallery">
+        <div class="flip-card col-xl-3 col-md-6">
+            <div class="flip-card-inner">
+                <img class="product-image gallery-images" src="images/gallery-images/gallery-1.jpg" alt="chair img">
+            </div>
+        </div>
+        <div class="flip-card col-xl-3 col-md-6">
+            <div class="flip-card-inner">
+                <img class="product-image gallery-images" src="images/gallery-images/gallery-2.jpg" alt="chair img">
+            </div>
+        </div>
+        <div class="flip-card col-xl-3 col-md-6">
+            <div class="flip-card-inner">
+                <img class="product-image gallery-images" src="images/gallery-images/gallery-3.jpg" alt="chair img">
+            </div>
+        </div>
+        <div class="flip-card col-xl-3 col-md-6">
+            <div class="flip-card-inner">
+                <img class="product-image gallery-images" src="images/gallery-images/gallery-4.jpg" alt="chair img">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Bootstrap Script -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+
+</body>
+</html>

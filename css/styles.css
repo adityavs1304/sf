@@ -1,0 +1,243 @@
+body {
+    background-image: linear-gradient(to right, #159895, #FFB84C);
+}
+
+.navbar {
+    opacity: 0.8;
+    font-size:  1.2rem;
+}
+
+.big-heading {
+    font-family: 'Pacifico', cursive;;
+    font-size: 5rem;
+    margin-left: 4%;
+}
+
+.intro-section {
+    background-color: #AAC8A7;
+}
+
+.flip-card {
+  background-color: transparent;
+  perspective: 1000px;
+}
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.second-heading {
+    margin-left: 5%;
+    font-size: 3.5rem;
+
+}
+
+.title-class {
+    margin: 5%;
+    display: inline;
+}
+
+.lead {
+    font-family: Sacramento;
+    margin-left: 33%;
+    font-size: 3rem;
+}
+
+.logo-div {
+    display: inline;
+    max-width: 300px;
+}
+
+.logo {
+    width: 300px;
+}
+
+.intro-images {
+    width: 100%;
+    height: 600px;
+}
+
+.carousel-image {
+    max-width: 500px;
+    max-height: 500px;
+    margin-left: 33%;
+    border-radius: 50%;
+}
+
+.carousel-caption {
+    opacity: 0.9;
+    margin-left: 15%;
+    max-width: 600px;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #EB455F, #82CD47);
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.certification-section {
+    padding: 10%;
+}
+.product-image {
+    width: 300px;
+    height: 300px;
+}
+
+.gallery-images {
+    border-radius: 5% 50% 50% 50%;
+}
+
+.gallery-container  {
+    
+    padding: 5%;
+}
+
+.carousel {
+    padding: 5%;
+    background-image: linear-gradient(to right, #EB455F, #82CD47);
+}
+
+hr {
+    border: none;
+    border-top: 3px double black ;
+    border-width: 10px;
+    color: black;
+    overflow: visible;
+    text-align: center;
+    size: 10px;
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+.social-container {
+    width: 100%;
+    padding: 10%;
+    background-image: linear-gradient(to right, #EB455F, #82CD47);
+}
+
+.social-div {
+    margin: 0 30%;
+}
+
+.emoticons {
+    margin: 0 10%;
+}
+
+.footer-text {
+    margin: 0, ;
+}
+
+/* Secondary Pages */ 
+
+.second-tier-section {
+    padding: 5% 10%;
+}
+
+.green-section {
+    background-image: linear-gradient(to right, #EB455F, #82CD47);
+}
+
+.query-form {
+    padding: 0% 10%;
+}
+
+.form-item {
+    margin: 5px;
+}
+
+.text {
+    font-size: 1.5rem;
+}
+
+.input, .address-text {
+    width: 250px;
+}
+
+.label-div {
+    max-width: 200px;
+}
+
+.inner-container {
+    padding: 5% 10%;
+}
+
+.btn {
+    margin: 2% 15%;
+}
+
+.box {
+    border-style: double;
+    border-width: 5px;
+    padding: 5%;
+}
+
+.product-container {
+    padding: 5%;
+}
+
+.product-img {
+    width: 220px;
+    height: 220px;
+}
+
+.chair-label {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+.homepage-second-heading {
+    margin: 5%;
+    font-size: 3.5rem;
+
+}
+
+.gallery {
+    padding: 3%
+}
+
+.certificates {
+    width: 400px;
+    height: 550px;
+    margin: 5px;
+}
+
+.certificate-heading {
+    margin-bottom: 5%;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #5c2a9d;
+}
+
+
+.certificate-div .overlay {
+    opacity: 0.75;
+}
